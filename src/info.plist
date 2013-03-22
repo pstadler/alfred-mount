@@ -73,7 +73,7 @@ function escape_hostname {
 
 trap '{
     mounted_volumes=$(mount)
-    for host in $hosts; do
+    for host in $(printf "%s\n" "${hosts[@]}" | sort -u); do
         # password=$(security find-internet-password -l "$host" -w)
         while read -r line; do
             if [[ "$line" == *Disk* ]]; then
