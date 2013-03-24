@@ -6,4 +6,6 @@ Available shares will **be automatically discovered** and listed within Alfred.
 
 ![Screenshot of "Mount Network Share for Alfred"](screenshot.png)
 
+![Screenshot of "Mount Network Share for Alfred"](screenshot-unmount.png)
+
 [Download](Mount%20Network%20Share.alfredworkflow?raw=true)
