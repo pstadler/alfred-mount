@@ -97,6 +97,7 @@ echo "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;&lt;items&gt;$out&lt;/item
 				<string>Discovering shares...</string>
 				<key>script</key>
 				<string>#!/bin/bash
+shopt -s nocasematch
 
 query="{query}"
 
